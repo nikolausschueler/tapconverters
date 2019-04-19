@@ -1,0 +1,4 @@
+What is this?
+
+It's a tool to convert output of some test runners (like Cram) to TAP (Test
+Anything Protocol) output.
