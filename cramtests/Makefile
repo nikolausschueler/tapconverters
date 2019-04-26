@@ -1,5 +1,5 @@
-export PATH := $(PWD)/../script:$(PATH)
-export PYTHONPATH := $(PWD)/../lib:$(PYTHONPATH)
+export PATH := $(PWD)/../scripts:$(PATH)
+export PYTHONPATH := $(PWD)/..:$(PYTHONPATH)
 
 TESTS=*.t
 
