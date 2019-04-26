@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get install -y make python python-pip
     pip install cram
-    cd /vagrant && python setup.py install
     cd /vagrant/cramtests && make
+    cd /vagrant && python setup.py install
   SHELL
 end
