@@ -3,6 +3,9 @@
 from distutils.core import setup
 
 setup(
+        name='tapconverter',
+        version='0.1',
+        description='Converter from Cram (and some other formats) to TAP',
         py_modules = ['tapconverter'],
         scripts = [
             'scripts/cram2tap',
