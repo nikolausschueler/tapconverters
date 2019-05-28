@@ -46,6 +46,13 @@ setuptools have to be installed separately, this would still leave you with an
 extra install (of setuptools instead of Cram), so nothing would be won in terms
 of convenience.
 
+When you have Cram installed, you can test with:
+
+```
+$ cd cramtests
+$ make
+```
+
 Vagrant
 =======
 
