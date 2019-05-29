@@ -23,6 +23,17 @@ $ python setup.py install
 
 inside this repo here.
 
+Usage
+=====
+
+The programs are intended to run as filters:
+
+```
+$ cram *.t | cram2tap
+```
+
+You can find some usage examples in the Cram tests for this package.
+
 Cram
 ====
 
