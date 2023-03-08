@@ -65,8 +65,8 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get install -y make python python-pip
-    pip install cram
+    apt-get install -y make python python3-pip
+    pip3 install cram
     cd /vagrant/cramtests && make
     cd /vagrant && python setup.py install
   SHELL
